@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/610338df72b92c5b281f3d23
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+   "name" : "Rizqon Maulana - subscribersss",
+   "subscribedToChannel" : "Insomnicode" 
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/61033783b4c9a559d0d6d68f
+
+###
+
+PATCH http://localhost:3000/subscribers/610338df72b92c5b281f3d23
+Content-Type: application/json
+
+{
+   "name" : "Abraham",
+   "subscribedToChannel" : "Insomnicode LTS" 
+}
